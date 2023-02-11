@@ -1,0 +1,34 @@
+[
+  {
+    "id": "",
+    "title": "Javascript Developer",
+    "description": "topu dev kavali",
+    "dataPosted": "10/1/23",
+    "expiryDate": "10/2/23",
+    "skills": ["skillIds"],
+    "postedBy": "userId",
+    "isAgency": true,
+    "status": "",
+    "compensationDetails": {
+      "min": "450",
+      "max": "700",
+      "isFixed": false,
+      "isNegotiable": true,
+      "isDayRate": true
+    },
+    "contractDetails": {
+      "tenure": "6",
+      "isRolling": true,
+      "rollingTenure": "3",
+      "isExtensible": true,
+      "isQdos": false
+    },
+    "locationDetails": {
+      "latitude": "",
+      "longitude": "",
+      "zipCode": "",
+      "address": "",
+      "type": "hybrid"
+    }
+  }
+]

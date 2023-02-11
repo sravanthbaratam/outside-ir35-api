@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Outside IR35",
+    "type": "contract"
+  },
+  {
+    "title": "Inside IR35",
+    "type": "contract"
+  },
+  {
+    "title": "Full Time/Permanent",
+    "type": "permanent"
+  }
+]

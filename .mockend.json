@@ -64,5 +64,104 @@
     "user": {
       "belongsTo": "User"
     }
+  },
+  "Job": {
+    "title": {
+      "string": {}
+    },
+    "description": {
+      "string": {}
+    },
+    "dataPosted": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2023-02-11T23:59:59Z"
+      }
+    },
+    "expiryDate": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2023-02-11T23:59:59Z"
+      }
+    },
+    "skills": {
+      "hasMany": "Skill"
+    },
+    "postedBy": {
+      "string": {}
+    },
+    "isAgency": {
+      "boolean": {}
+    },
+    "status": {
+      "string": {}
+    },
+    "compensationDetails": { "hasMany": "CompensationDetail" },
+    "contractDetails": { "hasMany": "ContractDetail" },
+    "locationDetails": { "hasMany": "LocationDetail" }
+  },
+  "Skill": {
+    "title": { "string": {} },
+    "job": {
+      "belongsTo": "Job"
+    }
+  },
+  "CompensationDetail": {
+    "min": {
+      "string": {}
+    },
+    "max": {
+      "string": {}
+    },
+    "isFixed": {
+      "boolean": {}
+    },
+    "isNegotiable": {
+      "boolean": {}
+    },
+    "isDayRate": {
+      "boolean": {}
+    },
+    "job": {
+      "belongsTo": "Job"
+    }
+  },
+  "ContractDetail": {
+    "tenure": {
+      "string": {}
+    },
+    "isRolling": {
+      "boolean": {}
+    },
+    "rollingTenure": {
+      "string": {}
+    },
+    "isExtensible": {
+      "boolean": {}
+    },
+    "isQdos": {
+      "boolean": {}
+    },
+    "job": {
+      "belongsTo": "Job"
+    }
+  },
+  "LocationDetail": {
+    "latitude": {
+      "string": {}
+    },
+    "longitude": {
+      "string": {}
+    },
+    "zipCode": {
+      "string": {}
+    },
+    "address": {
+      "string": {}
+    },
+    "type": "hybrid",
+    "job": {
+      "belongsTo": "Job"
+    }
   }
 }

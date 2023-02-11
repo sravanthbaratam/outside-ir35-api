@@ -1,0 +1,54 @@
+[
+  {
+    "id": "",
+    "title": "Senior Software Engineer",
+    "firstName": "Sravanth",
+    "lastName": "Baratam",
+    "dataOfBirth": "date",
+    "isRecruiter": false,
+    "companyName": "",
+    "avatarUrl": "",
+    "companyLogo": "",
+    "skills": ["ids"],
+    "jobsApplied": [{ "jobId": "id", "status": "hired" }],
+    "jobsPosted": [{ "jobId": "id", "status": "full" }],
+    "rating": [
+      {
+        "userId": "",
+        "description": "",
+        "rating": 5
+      }
+    ],
+    "about": "",
+    "links": [
+      {
+        "type": "linkedIn",
+        "link": ""
+      },
+      {
+        "type": "facebook",
+        "link": ""
+      },
+      {
+        "type": "instagram",
+        "link": ""
+      },
+      {
+        "type": "github",
+        "link": ""
+      },
+      {
+        "type": "website",
+        "link": ""
+      },
+      {
+        "type": "resume",
+        "link": ""
+      },
+      {
+        "type": "coverLetter",
+        "link": ""
+      }
+    ]
+  }
+]
