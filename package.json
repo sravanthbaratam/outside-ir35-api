@@ -1,0 +1,26 @@
+{
+  "name": "outside-ir35-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sravanthbaratam/outside-ir35-api.git"
+  },
+  "author": "Sravanth Baratam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sravanthbaratam/outside-ir35-api/issues"
+  },
+  "homepage": "https://github.com/sravanthbaratam/outside-ir35-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
