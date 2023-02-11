@@ -53,10 +53,16 @@
     },
     "rate": {
       "int": { "min": 1, "max": 5 }
+    },
+    "user": {
+      "belongsTo": "User"
     }
   },
   "Link": {
     "type": { "string": ["linkedIn", "github"] },
-    "link": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
+    "link": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
+    "user": {
+      "belongsTo": "User"
+    }
   }
 }
