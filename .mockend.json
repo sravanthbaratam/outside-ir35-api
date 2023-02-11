@@ -10,7 +10,10 @@
       "string": {}
     },
     "dataOfBirth": {
-      "dateTime": {}
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2023-02-11T23:59:59Z"
+      }
     },
     "isRecruiter": {
       "boolean": {}
@@ -32,31 +35,23 @@
     },
     "jobsApplied": { "loremWords": { "minLength": 5, "maxLength": 20 } },
     "jobsPosted": { "loremWords": { "minLength": 5, "maxLength": 20 } },
-    "rating": [
-      {
-        "userId": {
-          "string": {}
-        },
-        "description": {
-          "string": {}
-        },
-        "rating": {
-          "int": { "min": 1, "max": 5 }
-        }
+    "rating": {
+      "userId": {
+        "string": {}
+      },
+      "description": {
+        "string": {}
+      },
+      "rating": {
+        "int": { "min": 1, "max": 5 }
       }
-    ],
+    },
     "about": {
       "string": {}
     },
-    "links": [
-      {
-        "type": { "string": ["linkedIn", "github"] },
-        "link": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
-      }
-    ]
-  },
-  "Job": {},
-  "JobType": {},
-  "Skill": {},
-  "WorkPermitType": {}
+    "links": {
+      "type": { "string": ["linkedIn", "github"] },
+      "link": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
+    }
+  }
 }
