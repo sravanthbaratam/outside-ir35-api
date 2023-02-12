@@ -107,12 +107,6 @@
     }
   },
   "CompensationDetail": {
-    "min": {
-      "string": {}
-    },
-    "max": {
-      "string": {}
-    },
     "isFixed": {
       "boolean": {}
     },
