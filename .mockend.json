@@ -84,9 +84,6 @@
         "max": "2023-02-11T23:59:59Z"
       }
     },
-    "skills": {
-      "hasMany": "Skill"
-    },
     "compensationDetails": {
       "hasMany": "CompensationDetail"
     },
@@ -98,12 +95,6 @@
     },
     "status": {
       "string": {}
-    }
-  },
-  "Skill": {
-    "title": { "string": {} },
-    "job": {
-      "belongsTo": "Job"
     }
   },
   "CompensationDetail": {
