@@ -87,6 +87,9 @@
     "skills": {
       "hasMany": "Skill"
     },
+    "compensationDetails": {
+      "hasMany": "CompensationDetail"
+    },
     "postedBy": {
       "string": {}
     },
@@ -99,6 +102,26 @@
   },
   "Skill": {
     "title": { "string": {} },
+    "job": {
+      "belongsTo": "Job"
+    }
+  },
+  "CompensationDetail": {
+    "min": {
+      "string": {}
+    },
+    "max": {
+      "string": {}
+    },
+    "isFixed": {
+      "boolean": {}
+    },
+    "isNegotiable": {
+      "boolean": {}
+    },
+    "isDayRate": {
+      "boolean": {}
+    },
     "job": {
       "belongsTo": "Job"
     }
