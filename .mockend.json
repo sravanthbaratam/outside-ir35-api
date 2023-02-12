@@ -85,7 +85,7 @@
       }
     },
     "compensationDetails": {
-      "hasMany": "CompensationDetail"
+      "hasMany": "Compensation"
     },
     "postedBy": {
       "string": {}
@@ -97,7 +97,7 @@
       "string": {}
     }
   },
-  "CompensationDetail": {
+  "Compensation": {
     "isFixed": {
       "boolean": {}
     },
